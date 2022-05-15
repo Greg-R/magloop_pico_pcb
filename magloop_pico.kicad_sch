@@ -2387,7 +2387,6 @@
     )
   )
 
-
   (junction (at 33.655 22.86) (diameter 0) (color 0 0 0 0)
     (uuid 0094ff79-aa55-4412-974d-92659c432e71)
   )
@@ -4365,10 +4364,6 @@
   (text "J10" (at 178.435 93.98 0)
     (effects (font (size 2.0066 2.0066)) (justify left bottom))
     (uuid 5a6eb3c4-27e5-4af6-b71f-84254abd74d4)
-  )
-  (text "Add ferrite bead on 12V???" (at 16.51 5.715 0)
-    (effects (font (size 1 1)) (justify left bottom))
-    (uuid 5aee846a-8592-4b29-bd9b-9c316ee83d69)
   )
   (text "RF bypasses or ferrite beads for stepper outs?" (at 12.065 192.405 0)
     (effects (font (size 1 1)) (justify left bottom))
