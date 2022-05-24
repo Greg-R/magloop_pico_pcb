@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/raven/gitrepos/MicrocontrollerProjectsHamRadio/magloop_pico/magloop_pico.kicad_sch</source>
-    <date>Thu 10 Mar 2022 10:03:03 AM EST</date>
-    <tool>Eeschema 6.0.2-378541a8eb~116~ubuntu20.04.1</tool>
+    <source>/home/raven/gitrepos/pcb/magloop_pico_pcb/magloop_pico.kicad_sch</source>
+    <date>Tue 24 May 2022 03:14:49 PM EDT</date>
+    <tool>Eeschema 6.0.5-a6ca702e91~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>Pi Pico Magnetic Loop Controller Prototype 3</title>
+        <title>Pi Pico Magnetic Loop Controller 1.0</title>
         <company/>
-        <rev>0.1</rev>
-        <date>2021-10-23</date>
+        <rev>1.0</rev>
+        <date>2022-04-25</date>
         <source>magloop_pico.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -267,6 +267,24 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b67ea9a8-f377-4f91-9f8a-b22d00d4788b</tstamps>
     </comp>
+    <comp ref="C28">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="magloop_pico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91782fd2-9cff-46ca-a827-da558b7b1960</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="magloop_pico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e23d99fc-a483-4ef1-8fad-cdf02092ab67</tstamps>
+    </comp>
     <comp ref="D1">
       <value>MBR0520LT1G</value>
       <footprint>digikey-footprints:SOD-123</footprint>
@@ -337,6 +355,16 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000061048cfd</tstamps>
     </comp>
+    <comp ref="D6">
+      <value>1N4004</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="magloop_pico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ca2d253-8c40-4348-8662-3e78534de31d</tstamps>
+    </comp>
     <comp ref="FB1">
       <value>FerriteBead</value>
       <footprint>Inductor_SMD:L_1206_3216Metric</footprint>
@@ -364,6 +392,36 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>fe77482a-5d18-46c0-b9eb-cb5c41beaaaf</tstamps>
     </comp>
+    <comp ref="J3">
+      <value>POWER  SW</value>
+      <footprint>digikey-footprints:PinHeader_1x2_P2.5mm_Drill1.1mm</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B2B-XH-A(LF)(SN)/455-2247-ND/1651045</field>
+        <field name="Description">CONN HEADER VERT 2POS 2.5MM</field>
+        <field name="Digi-Key_PN">455-2247-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">B2B-XH-A(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B2B-XH-A_LF__SN_" description="CONN HEADER VERT 2POS 2.5MM"/>
+      <property name="Digi-Key_PN" value="455-2247-ND"/>
+      <property name="MPN" value="B2B-XH-A(LF)(SN)"/>
+      <property name="Category" value="Connectors, Interconnects"/>
+      <property name="Family" value="Rectangular Connectors - Headers, Male Pins"/>
+      <property name="DK_Datasheet_Link" value="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/jst-sales-america-inc/B2B-XH-A(LF)(SN)/455-2247-ND/1651045"/>
+      <property name="Description" value="CONN HEADER VERT 2POS 2.5MM"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="magloop_pico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed74b311-30b7-4cec-a1ae-cf1be8e2d822</tstamps>
+    </comp>
     <comp ref="J4">
       <value>Conn_02x03_Odd_Even</value>
       <footprint>Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical</footprint>
@@ -374,46 +432,46 @@
       <tstamps>750b844e-1559-4c97-b85d-d3413925c8ef</tstamps>
     </comp>
     <comp ref="J5">
-      <value>Conn_02x05_Odd_Even</value>
-      <footprint>Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <value>Conn_02x04_Odd_Even</value>
+      <footprint>Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="magloop_pico.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000061748fea</tstamps>
+      <tstamps>4cbc823f-13eb-45dc-89ce-d917c44d7ebc</tstamps>
     </comp>
     <comp ref="J6">
-      <value>22-23-2021</value>
-      <footprint>digikey-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm</footprint>
-      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf</datasheet>
+      <value>TO RF RELAY</value>
+      <footprint>digikey-footprints:PinHeader_1x2_P2.5mm_Drill1.1mm</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
       <fields>
         <field name="Category">Connectors, Interconnects</field>
-        <field name="DK_Datasheet_Link">https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf</field>
-        <field name="DK_Detail_Page">/product-detail/en/molex/22-23-2021/WM4200-ND/26667</field>
-        <field name="Description">CONN HEADER VERT 2POS 2.54MM</field>
-        <field name="Digi-Key_PN">WM4200-ND</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B2B-XH-A(LF)(SN)/455-2247-ND/1651045</field>
+        <field name="Description">CONN HEADER VERT 2POS 2.5MM</field>
+        <field name="Digi-Key_PN">455-2247-ND</field>
         <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
-        <field name="MPN">22-23-2021</field>
-        <field name="Manufacturer">Molex</field>
+        <field name="MPN">B2B-XH-A(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
         <field name="Status">Active</field>
       </fields>
-      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="22-23-2021" description="CONN HEADER VERT 2POS 2.54MM"/>
-      <property name="Digi-Key_PN" value="WM4200-ND"/>
-      <property name="MPN" value="22-23-2021"/>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B2B-XH-A_LF__SN_" description="CONN HEADER VERT 2POS 2.5MM"/>
+      <property name="Digi-Key_PN" value="455-2247-ND"/>
+      <property name="MPN" value="B2B-XH-A(LF)(SN)"/>
       <property name="Category" value="Connectors, Interconnects"/>
       <property name="Family" value="Rectangular Connectors - Headers, Male Pins"/>
-      <property name="DK_Datasheet_Link" value="https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf"/>
-      <property name="DK_Detail_Page" value="/product-detail/en/molex/22-23-2021/WM4200-ND/26667"/>
-      <property name="Description" value="CONN HEADER VERT 2POS 2.54MM"/>
-      <property name="Manufacturer" value="Molex"/>
+      <property name="DK_Datasheet_Link" value="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/jst-sales-america-inc/B2B-XH-A(LF)(SN)/455-2247-ND/1651045"/>
+      <property name="Description" value="CONN HEADER VERT 2POS 2.5MM"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
       <property name="Status" value="Active"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="magloop_pico.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000622a4bd5</tstamps>
+      <tstamps>fb3dd133-712e-4c96-8501-edde66344d1a</tstamps>
     </comp>
     <comp ref="J7">
-      <value>2-406541-3</value>
+      <value>ETHERNET</value>
       <footprint>magloop_library:2-406541-3</footprint>
       <libsource lib="Ethernet_Conn" part="2-406541-3" description=""/>
       <property name="Sheetname" value=""/>
@@ -422,16 +480,84 @@
       <tstamps>d1bf4c9d-65d4-49b6-9189-1d3352cec3a8</tstamps>
     </comp>
     <comp ref="J8">
-      <value>5-1634503-1</value>
-      <footprint>BNC_Vertical:5-1634503-1</footprint>
-      <libsource lib="BNC_Vertical_Magloop_Pico" part="5-1634503-1" description=""/>
+      <value>5-1634513-1</value>
+      <footprint>5-1634513-1:TE_5-1634513-1</footprint>
+      <fields>
+        <field name="Comment">5-1634513-1</field>
+        <field name="EU_RoHS_Compliance">Compliant</field>
+        <field name="Number_of_Positions">1</field>
+      </fields>
+      <libsource lib="BNC_Horizontal" part="5-1634513-1" description=""/>
+      <property name="Number_of_Positions" value="1"/>
+      <property name="Comment" value="5-1634513-1"/>
+      <property name="EU_RoHS_Compliance" value="Compliant"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="magloop_pico.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>20e66f2b-9b56-43c3-9309-4dff9891ff60</tstamps>
+      <tstamps>2d1acdac-33e5-4efd-b485-8d0f74347632</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>12V AUDIO MUTE</value>
+      <footprint>digikey-footprints:PinHeader_1x2_P2.5mm_Drill1.1mm</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B2B-XH-A(LF)(SN)/455-2247-ND/1651045</field>
+        <field name="Description">CONN HEADER VERT 2POS 2.5MM</field>
+        <field name="Digi-Key_PN">455-2247-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">B2B-XH-A(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B2B-XH-A_LF__SN_" description="CONN HEADER VERT 2POS 2.5MM"/>
+      <property name="Digi-Key_PN" value="455-2247-ND"/>
+      <property name="MPN" value="B2B-XH-A(LF)(SN)"/>
+      <property name="Category" value="Connectors, Interconnects"/>
+      <property name="Family" value="Rectangular Connectors - Headers, Male Pins"/>
+      <property name="DK_Datasheet_Link" value="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/jst-sales-america-inc/B2B-XH-A(LF)(SN)/455-2247-ND/1651045"/>
+      <property name="Description" value="CONN HEADER VERT 2POS 2.5MM"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="magloop_pico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd646d59-670a-4588-8403-b6dc19aa8142</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>5V AUDIO MUTE</value>
+      <footprint>digikey-footprints:PinHeader_1x2_P2.5mm_Drill1.1mm</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B2B-XH-A(LF)(SN)/455-2247-ND/1651045</field>
+        <field name="Description">CONN HEADER VERT 2POS 2.5MM</field>
+        <field name="Digi-Key_PN">455-2247-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">B2B-XH-A(LF)(SN)</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B2B-XH-A_LF__SN_" description="CONN HEADER VERT 2POS 2.5MM"/>
+      <property name="Digi-Key_PN" value="455-2247-ND"/>
+      <property name="MPN" value="B2B-XH-A(LF)(SN)"/>
+      <property name="Category" value="Connectors, Interconnects"/>
+      <property name="Family" value="Rectangular Connectors - Headers, Male Pins"/>
+      <property name="DK_Datasheet_Link" value="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/jst-sales-america-inc/B2B-XH-A(LF)(SN)/455-2247-ND/1651045"/>
+      <property name="Description" value="CONN HEADER VERT 2POS 2.5MM"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="magloop_pico.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9db4a05-93ce-46e5-9e56-f394110c5ac4</tstamps>
     </comp>
     <comp ref="Q1">
-      <value>MMBT3904</value>
+      <value>NPN</value>
       <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
       <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
@@ -441,7 +567,7 @@
       <tstamps>00000000-0000-0000-0000-0000612b2580</tstamps>
     </comp>
     <comp ref="Q2">
-      <value>MMBT3904</value>
+      <value>NPN</value>
       <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
       <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
@@ -451,7 +577,7 @@
       <tstamps>00000000-0000-0000-0000-00006161810c</tstamps>
     </comp>
     <comp ref="Q3">
-      <value>MMBT3904</value>
+      <value>NPN</value>
       <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
       <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
@@ -461,7 +587,7 @@
       <tstamps>00000000-0000-0000-0000-000061618ff8</tstamps>
     </comp>
     <comp ref="Q4">
-      <value>MMBT3904</value>
+      <value>NPN</value>
       <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
       <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
@@ -471,7 +597,7 @@
       <tstamps>00000000-0000-0000-0000-00006161a509</tstamps>
     </comp>
     <comp ref="Q5">
-      <value>MMBT3904</value>
+      <value>NPN</value>
       <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
       <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
@@ -481,7 +607,7 @@
       <tstamps>00000000-0000-0000-0000-0000616f29f2</tstamps>
     </comp>
     <comp ref="Q6">
-      <value>MMBT3904</value>
+      <value>NPN</value>
       <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
       <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
@@ -491,7 +617,7 @@
       <tstamps>00000000-0000-0000-0000-0000616f3dcd</tstamps>
     </comp>
     <comp ref="Q7">
-      <value>MMBT3904</value>
+      <value>NPN</value>
       <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
       <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
@@ -501,7 +627,7 @@
       <tstamps>00000000-0000-0000-0000-00006193abbf</tstamps>
     </comp>
     <comp ref="Q8">
-      <value>Si2371EDS</value>
+      <value>PMOS</value>
       <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
       <datasheet>http://www.vishay.com/docs/63924/si2371eds.pdf</datasheet>
       <libsource lib="Transistor_FET" part="Si2371EDS" description="-3.6A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
@@ -511,7 +637,7 @@
       <tstamps>00000000-0000-0000-0000-000061a02907</tstamps>
     </comp>
     <comp ref="Q9">
-      <value>MMBT3904</value>
+      <value>NPN</value>
       <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
       <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
@@ -521,7 +647,7 @@
       <tstamps>00000000-0000-0000-0000-000061d0997d</tstamps>
     </comp>
     <comp ref="Q10">
-      <value>Si2371EDS</value>
+      <value>PMOS</value>
       <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
       <datasheet>http://www.vishay.com/docs/63924/si2371eds.pdf</datasheet>
       <libsource lib="Transistor_FET" part="Si2371EDS" description="-3.6A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
@@ -531,7 +657,7 @@
       <tstamps>00000000-0000-0000-0000-000061899f2b</tstamps>
     </comp>
     <comp ref="Q11">
-      <value>MMBT3904</value>
+      <value>NPN</value>
       <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
       <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
@@ -541,7 +667,7 @@
       <tstamps>00000000-0000-0000-0000-000061dc5c21</tstamps>
     </comp>
     <comp ref="Q12">
-      <value>Si2371EDS</value>
+      <value>PMOS</value>
       <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
       <datasheet>http://www.vishay.com/docs/63924/si2371eds.pdf</datasheet>
       <libsource lib="Transistor_FET" part="Si2371EDS" description="-3.6A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
@@ -632,7 +758,7 @@
       <tstamps>00000000-0000-0000-0000-000060f85f5f</tstamps>
     </comp>
     <comp ref="R13">
-      <value>50.0</value>
+      <value>51.0</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
@@ -641,7 +767,7 @@
       <tstamps>00000000-0000-0000-0000-000060ee0403</tstamps>
     </comp>
     <comp ref="R14">
-      <value>50.0</value>
+      <value>51.0</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
@@ -650,7 +776,7 @@
       <tstamps>00000000-0000-0000-0000-000060ee422a</tstamps>
     </comp>
     <comp ref="R15">
-      <value>50.0</value>
+      <value>51.0</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
@@ -659,7 +785,7 @@
       <tstamps>00000000-0000-0000-0000-000060ee2682</tstamps>
     </comp>
     <comp ref="R16">
-      <value>50.0</value>
+      <value>51.0</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
@@ -684,15 +810,6 @@
       <property name="Sheetfile" value="magloop_pico.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000060f1484f</tstamps>
-    </comp>
-    <comp ref="R19">
-      <value>10K</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
-      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="magloop_pico.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000061368c12</tstamps>
     </comp>
     <comp ref="R20">
       <value>1M</value>
@@ -947,7 +1064,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="magloop_pico.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000060ea8a93 00000000-0000-0000-0000-000060eaa8e8 00000000-0000-0000-0000-000060ea667c</tstamps>
+      <tstamps>00000000-0000-0000-0000-000060eaa8e8 00000000-0000-0000-0000-000060ea8a93 00000000-0000-0000-0000-000060ea667c</tstamps>
     </comp>
     <comp ref="U8">
       <value>LM358</value>
@@ -1017,21 +1134,21 @@
         <pin num="8" name="V+" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="BNC_Vertical_Magloop_Pico" part="5-1634503-1">
-      <footprints>
-        <fp>CONN5_5-1634503-1_TEC</fp>
-      </footprints>
+    <libpart lib="BNC_Horizontal" part="5-1634513-1">
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">5-1634503-1</field>
-        <field name="Footprint">CONN5_5-1634503-1_TEC</field>
+        <field name="Value">5-1634513-1</field>
+        <field name="Footprint">TE_5-1634513-1</field>
+        <field name="Number_of_Positions">1</field>
+        <field name="Comment">5-1634513-1</field>
+        <field name="EU_RoHS_Compliance">Compliant</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="unspecified"/>
-        <pin num="2" name="SHIELD" type="unspecified"/>
-        <pin num="3" name="SHIELD" type="unspecified"/>
-        <pin num="4" name="SHIELD" type="unspecified"/>
-        <pin num="5" name="SHIELD" type="unspecified"/>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="SH1" name="SHIELD" type="power_in"/>
+        <pin num="SH2" name="SHIELD" type="power_in"/>
+        <pin num="SH3" name="SHIELD" type="power_in"/>
+        <pin num="SH4" name="SHIELD" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="Conn_Coaxial_Power">
@@ -1075,15 +1192,15 @@
         <pin num="6" name="Pin_6" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
-      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+    <libpart lib="Connector_Generic" part="Conn_02x04_Odd_Even">
+      <description>Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
         <fp>Connector*:*_2x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_02x05_Odd_Even</field>
+        <field name="Value">Conn_02x04_Odd_Even</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
@@ -1095,8 +1212,6 @@
         <pin num="6" name="Pin_6" type="passive"/>
         <pin num="7" name="Pin_7" type="passive"/>
         <pin num="8" name="Pin_8" type="passive"/>
-        <pin num="9" name="Pin_9" type="passive"/>
-        <pin num="10" name="Pin_10" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C">
@@ -1163,6 +1278,23 @@
       <pins>
         <pin num="1" name="" type="passive"/>
         <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4004">
+      <description>400V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4004</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Diode" part="1N5711UR">
@@ -1394,22 +1526,22 @@
         <pin num="K" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="22-23-2021">
-      <description>CONN HEADER VERT 2POS 2.54MM</description>
-      <docs>https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf</docs>
+    <libpart lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="B2B-XH-A_LF__SN_">
+      <description>CONN HEADER VERT 2POS 2.5MM</description>
+      <docs>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</docs>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">22-23-2021</field>
-        <field name="Footprint">digikey-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm</field>
-        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf</field>
-        <field name="Digi-Key_PN">WM4200-ND</field>
-        <field name="MPN">22-23-2021</field>
+        <field name="Value">B2B-XH-A_LF__SN_</field>
+        <field name="Footprint">digikey-footprints:PinHeader_1x2_P2.5mm_Drill1.1mm</field>
+        <field name="Datasheet">http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="Digi-Key_PN">455-2247-ND</field>
+        <field name="MPN">B2B-XH-A(LF)(SN)</field>
         <field name="Category">Connectors, Interconnects</field>
         <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
-        <field name="DK_Datasheet_Link">https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf</field>
-        <field name="DK_Detail_Page">/product-detail/en/molex/22-23-2021/WM4200-ND/26667</field>
-        <field name="Description">CONN HEADER VERT 2POS 2.54MM</field>
-        <field name="Manufacturer">Molex</field>
+        <field name="DK_Datasheet_Link">http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/jst-sales-america-inc/B2B-XH-A(LF)(SN)/455-2247-ND/1651045</field>
+        <field name="Description">CONN HEADER VERT 2POS 2.5MM</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
         <field name="Status">Active</field>
       </fields>
       <pins>
@@ -1420,13 +1552,13 @@
   </libparts>
   <libraries>
     <library logical="A4988_module">
-      <uri>/home/raven/gitrepos/MicrocontrollerProjectsHamRadio/magloop_pico/A4988_module.kicad_sym</uri>
+      <uri>/home/raven/gitrepos/pcb/magloop_pico_pcb/library/A4988_module.kicad_sym</uri>
     </library>
     <library logical="Amplifier_Operational">
       <uri>/usr/share/kicad/symbols//Amplifier_Operational.kicad_sym</uri>
     </library>
-    <library logical="BNC_Vertical_Magloop_Pico">
-      <uri>/home/raven/gitrepos/pcb/downloaded_parts/ul_5-1634503-1/KiCAD/2022-03-09_17-27-15/2022-03-09_17-27-15.kicad_sym</uri>
+    <library logical="BNC_Horizontal">
+      <uri>/home/raven/gitrepos/pcb/downloaded_parts/5-1634513-1/5-1634513-1.lib</uri>
     </library>
     <library logical="Connector">
       <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
@@ -1441,10 +1573,10 @@
       <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
     </library>
     <library logical="Ethernet_Conn">
-      <uri>/home/raven/gitrepos/MicrocontrollerProjectsHamRadio/magloop_pico/library/ul_2-406541-3/KiCAD/2022-03-09_13-14-21/2022-03-09_13-14-21.kicad_sym</uri>
+      <uri>/home/raven/gitrepos/pcb/downloaded_parts/ul_2-406541-3/KiCAD/2022-03-09_13-14-21/2022-03-09_13-14-21.kicad_sym</uri>
     </library>
     <library logical="PI_Pico">
-      <uri>/home/raven/gitrepos/MicrocontrollerProjectsHamRadio/magloop_pico/PI_Pico.kicad_sym</uri>
+      <uri>/home/raven/gitrepos/pcb/magloop_pico_pcb/library/PI_Pico.kicad_sym</uri>
     </library>
     <library logical="Reference_Voltage">
       <uri>/usr/share/kicad/symbols//Reference_Voltage.kicad_sym</uri>
@@ -1462,7 +1594,7 @@
       <uri>/usr/share/kicad/symbols//Transistor_FET.kicad_sym</uri>
     </library>
     <library logical="ad9850">
-      <uri>/home/raven/gitrepos/MicrocontrollerProjectsHamRadio/magloop_pico/ad9850.lib</uri>
+      <uri>/home/raven/gitrepos/pcb/magloop_pico_pcb/library/ad9850.lib</uri>
     </library>
     <library logical="dk_Diodes-Rectifiers-Single">
       <uri>/home/raven/gitrepos/pcb/digikey-kicad-library/digikey-symbols/dk_Diodes-Rectifiers-Single.lib</uri>
@@ -1475,7 +1607,8 @@
     <net code="1" name="+3V3">
       <node ref="C25" pin="1" pintype="passive"/>
       <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="R40" pin="1" pintype="passive"/>
       <node ref="SW1" pin="4" pintype="passive"/>
       <node ref="SW1" pin="5" pintype="passive"/>
@@ -1488,7 +1621,6 @@
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="D1" pin="A" pintype="passive"/>
-      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="Q10" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R36" pin="1" pintype="passive"/>
       <node ref="U3" pin="3" pinfunction="VO" pintype="power_out"/>
@@ -1496,16 +1628,24 @@
     <net code="3" name="+5VA">
       <node ref="C17" pin="1" pintype="passive"/>
       <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="J10" pin="1" pintype="passive"/>
       <node ref="Q10" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="U7" pin="8" pinfunction="V+" pintype="power_in"/>
       <node ref="U8" pin="8" pinfunction="V+" pintype="power_in"/>
     </net>
     <net code="4" name="+12V">
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="In" pintype="passive"/>
+      <node ref="J3" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="/12V_FILT">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C19" pin="1" pintype="passive"/>
       <node ref="C23" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
-      <node ref="J1" pin="1" pinfunction="In" pintype="passive"/>
+      <node ref="J3" pin="1" pintype="passive"/>
+      <node ref="J9" pin="1" pintype="passive"/>
       <node ref="Q12" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q8" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R33" pin="1" pintype="passive"/>
@@ -1513,54 +1653,50 @@
       <node ref="U2" pin="8" pinfunction="VMOT" pintype="input"/>
       <node ref="U3" pin="1" pinfunction="VI" pintype="power_in"/>
     </net>
-    <net code="5" name="/ADC_VREF">
+    <net code="6" name="/ADC_VREF">
       <node ref="C24" pin="1" pintype="passive"/>
       <node ref="U4" pin="35" pinfunction="ADC_VREF" pintype="input"/>
       <node ref="U5" pin="1" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="6" name="/AUTOTUNE">
-      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="U4" pin="11" pinfunction="GP8" pintype="bidirectional"/>
+    <net code="7" name="/AUTOTUNE">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U4" pin="10" pinfunction="GP7" pintype="bidirectional"/>
     </net>
-    <net code="7" name="/CS">
-      <node ref="J5" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    <net code="8" name="/CS">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U4" pin="17" pinfunction="GP13" pintype="bidirectional"/>
     </net>
-    <net code="8" name="/DC">
-      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    <net code="9" name="/DC">
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U4" pin="21" pinfunction="GP16" pintype="input"/>
     </net>
-    <net code="9" name="/DIR">
+    <net code="10" name="/DIR">
       <node ref="U2" pin="16" pinfunction="DIR" pintype="input"/>
       <node ref="U4" pin="2" pinfunction="GP1" pintype="bidirectional"/>
     </net>
-    <net code="10" name="/DISP_RESET">
-      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
-      <node ref="R19" pin="2" pintype="passive"/>
+    <net code="11" name="/EN1_CLK">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U4" pin="27" pinfunction="GP21" pintype="input"/>
     </net>
-    <net code="11" name="/EN1_A_CLK">
-      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="U4" pin="24" pinfunction="GP18" pintype="input"/>
-    </net>
-    <net code="12" name="/EN1_B_DATA">
+    <net code="12" name="/EN1_DATA">
       <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U4" pin="22" pinfunction="GP17" pintype="input"/>
     </net>
-    <net code="13" name="/EN2_A_CLK">
+    <net code="13" name="/EN2_CLK">
       <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U4" pin="26" pinfunction="GP20" pintype="input"/>
     </net>
-    <net code="14" name="/EN2_B_DATA">
-      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="U4" pin="27" pinfunction="GP21" pintype="input"/>
+    <net code="14" name="/EN2_DATA">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U4" pin="24" pinfunction="GP18" pintype="input"/>
     </net>
     <net code="15" name="/ENTER">
       <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U4" pin="9" pinfunction="GP6" pintype="bidirectional"/>
     </net>
     <net code="16" name="/EXIT">
-      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="U4" pin="10" pinfunction="GP7" pintype="bidirectional"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U4" pin="11" pinfunction="GP8" pintype="bidirectional"/>
     </net>
     <net code="17" name="/FQ_UD">
       <node ref="U1" pin="13" pinfunction="FQ_UD" pintype="input"/>
@@ -1578,7 +1714,7 @@
       <node ref="U4" pin="15" pinfunction="GP11" pintype="bidirectional"/>
     </net>
     <net code="20" name="/MOSI">
-      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U4" pin="20" pinfunction="GP15" pintype="bidirectional"/>
     </net>
     <net code="21" name="/OPAMP">
@@ -1599,7 +1735,7 @@
       <node ref="U7" pin="7" pintype="output"/>
     </net>
     <net code="25" name="/SCK">
-      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="U4" pin="19" pinfunction="GP14" pintype="bidirectional"/>
     </net>
     <net code="26" name="/SLEEP">
@@ -1640,27 +1776,32 @@
       <node ref="C25" pin="2" pintype="passive"/>
       <node ref="C26" pin="1" pintype="passive"/>
       <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="Ext" pintype="passive"/>
+      <node ref="J10" pin="2" pintype="passive"/>
       <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
-      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J6" pin="1" pintype="passive"/>
       <node ref="J7" pin="10" pinfunction="10" pintype="unspecified"/>
       <node ref="J7" pin="3" pinfunction="3" pintype="unspecified"/>
       <node ref="J7" pin="5" pinfunction="5" pintype="unspecified"/>
       <node ref="J7" pin="9" pinfunction="9" pintype="unspecified"/>
-      <node ref="J8" pin="2" pinfunction="SHIELD" pintype="unspecified"/>
-      <node ref="J8" pin="3" pinfunction="SHIELD" pintype="unspecified"/>
-      <node ref="J8" pin="4" pinfunction="SHIELD" pintype="unspecified"/>
-      <node ref="J8" pin="5" pinfunction="SHIELD" pintype="unspecified"/>
+      <node ref="J8" pin="SH1" pinfunction="SHIELD" pintype="power_in"/>
+      <node ref="J8" pin="SH2" pinfunction="SHIELD" pintype="power_in"/>
+      <node ref="J8" pin="SH3" pinfunction="SHIELD" pintype="power_in"/>
+      <node ref="J8" pin="SH4" pinfunction="SHIELD" pintype="power_in"/>
+      <node ref="J9" pin="2" pintype="passive"/>
       <node ref="Q11" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="Q6" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="Q7" pin="2" pinfunction="E" pintype="passive"/>
@@ -1745,7 +1886,7 @@
     </net>
     <net code="39" name="Net-(C11-Pad2)">
       <node ref="C11" pin="2" pintype="passive"/>
-      <node ref="J8" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J8" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R14" pin="2" pintype="passive"/>
     </net>
     <net code="40" name="Net-(C12-Pad1)">
@@ -1780,7 +1921,8 @@
       <node ref="J6" pin="2" pintype="passive"/>
       <node ref="Q12" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="46" name="Net-(D1-PadK)">
+    <net code="46" name="Net-(C29-Pad2)">
+      <node ref="C29" pin="2" pintype="passive"/>
       <node ref="D1" pin="K" pintype="passive"/>
       <node ref="U4" pin="39" pinfunction="VSYS" pintype="input"/>
     </net>
@@ -1926,62 +2068,56 @@
       <node ref="U1" pin="14" pinfunction="Data" pintype="input"/>
       <node ref="U4" pin="7" pinfunction="GP5" pintype="bidirectional"/>
     </net>
-    <net code="78" name="Net-(U4-Pad6)">
+    <net code="78" name="Net-(U1-Pad15)">
       <node ref="U1" pin="15" pinfunction="RST" pintype="input"/>
       <node ref="U4" pin="6" pinfunction="GP4" pintype="bidirectional"/>
     </net>
-    <net code="79" name="unconnected-(J5-Pad5)">
-      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
-    </net>
-    <net code="80" name="unconnected-(J5-Pad9)">
-      <node ref="J5" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
-    </net>
-    <net code="81" name="unconnected-(U1-Pad2)">
+    <net code="79" name="unconnected-(U1-Pad2)">
       <node ref="U1" pin="2" pinfunction="D7" pintype="input+no_connect"/>
     </net>
-    <net code="82" name="unconnected-(U1-Pad3)">
+    <net code="80" name="unconnected-(U1-Pad3)">
       <node ref="U1" pin="3" pinfunction="D6" pintype="input+no_connect"/>
     </net>
-    <net code="83" name="unconnected-(U1-Pad4)">
+    <net code="81" name="unconnected-(U1-Pad4)">
       <node ref="U1" pin="4" pinfunction="D5" pintype="input+no_connect"/>
     </net>
-    <net code="84" name="unconnected-(U1-Pad5)">
+    <net code="82" name="unconnected-(U1-Pad5)">
       <node ref="U1" pin="5" pinfunction="D4" pintype="input+no_connect"/>
     </net>
-    <net code="85" name="unconnected-(U1-Pad6)">
+    <net code="83" name="unconnected-(U1-Pad6)">
       <node ref="U1" pin="6" pinfunction="D3" pintype="input+no_connect"/>
     </net>
-    <net code="86" name="unconnected-(U1-Pad7)">
+    <net code="84" name="unconnected-(U1-Pad7)">
       <node ref="U1" pin="7" pinfunction="D2" pintype="input+no_connect"/>
     </net>
-    <net code="87" name="unconnected-(U1-Pad8)">
+    <net code="85" name="unconnected-(U1-Pad8)">
       <node ref="U1" pin="8" pinfunction="D1" pintype="input+no_connect"/>
     </net>
-    <net code="88" name="unconnected-(U1-Pad9)">
+    <net code="86" name="unconnected-(U1-Pad9)">
       <node ref="U1" pin="9" pinfunction="D0" pintype="input+no_connect"/>
     </net>
-    <net code="89" name="unconnected-(U1-Pad11)">
+    <net code="87" name="unconnected-(U1-Pad11)">
       <node ref="U1" pin="11" pinfunction="Vcc" pintype="input+no_connect"/>
     </net>
-    <net code="90" name="unconnected-(U1-Pad17)">
+    <net code="88" name="unconnected-(U1-Pad17)">
       <node ref="U1" pin="17" pinfunction="QOUT1" pintype="input+no_connect"/>
     </net>
-    <net code="91" name="unconnected-(U1-Pad18)">
+    <net code="89" name="unconnected-(U1-Pad18)">
       <node ref="U1" pin="18" pinfunction="QOUT2" pintype="input+no_connect"/>
     </net>
-    <net code="92" name="unconnected-(U1-Pad19)">
+    <net code="90" name="unconnected-(U1-Pad19)">
       <node ref="U1" pin="19" pinfunction="ZOUT1" pintype="input+no_connect"/>
     </net>
-    <net code="93" name="unconnected-(U2-Pad9)">
+    <net code="91" name="unconnected-(U2-Pad9)">
       <node ref="U2" pin="9" pinfunction="EN!" pintype="input+no_connect"/>
     </net>
-    <net code="94" name="unconnected-(U4-Pad30)">
+    <net code="92" name="unconnected-(U4-Pad30)">
       <node ref="U4" pin="30" pinfunction="RUN" pintype="input+no_connect"/>
     </net>
-    <net code="95" name="unconnected-(U4-Pad37)">
+    <net code="93" name="unconnected-(U4-Pad37)">
       <node ref="U4" pin="37" pinfunction="3V3_EN" pintype="input+no_connect"/>
     </net>
-    <net code="96" name="unconnected-(U4-Pad40)">
+    <net code="94" name="unconnected-(U4-Pad40)">
       <node ref="U4" pin="40" pinfunction="VBUS" pintype="input+no_connect"/>
     </net>
   </nets>
